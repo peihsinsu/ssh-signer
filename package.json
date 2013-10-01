@@ -30,5 +30,6 @@
   "optionalDependencies": {},
   "_engineSupported": true,
   "_defaultsLoaded": true,
-  "_from": "Simon"
+  "_from": "Simon",
+  "license": "BSD"
 }
