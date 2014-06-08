@@ -1,7 +1,7 @@
 {
   "name": "ssh-signer",
   "description": "Node.js SSH Sign and Verify Utility",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Simon Su",
     "email": "simonsu.mail@gmail.com"
@@ -13,11 +13,14 @@
     }
   ],
   "dependencies": {
-    "crypto":"*",
-    "http-signature":"*"
+    "crypto": "*",
+    "http-signature": "*",
+    "keypair": "~1.0.0"
   },
   "keywords": [
-    "ssh", "sign", "verify"
+    "ssh",
+    "sign",
+    "verify"
   ],
   "repository": {
     "type": "git",

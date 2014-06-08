@@ -43,4 +43,13 @@ var b = signer.verifyStr(a, 'Test123', pubKeyStr, opt );
 console.log('Verify result ==> ' + b); //will show true or false
 ```
 
-
+Generate PEM RSA key pair
+```javascript
+var signer = require('ssh-signer');
+// default is 1024 bit key
+var key = signer.sshkeygen();
+// use other configures
+var keys = signer.sshkeygen({
+  bits: 2048
+});
+```
